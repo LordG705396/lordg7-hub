@@ -1,5 +1,5 @@
 /* LORDG7 Hub service worker — cache-first for static assets */
-const CACHE = 'lordg7-hub-v6';
+const CACHE = 'lordg7-hub-v7';
 const ASSETS = [
   '/',
   '/index.html',
