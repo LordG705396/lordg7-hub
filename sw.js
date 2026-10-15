@@ -1,12 +1,14 @@
 /* LORDG7 Hub service worker — cache-first for static assets */
-const CACHE = 'lordg7-hub-v12';
+const CACHE = 'lordg7-hub-v13';
 const ASSETS = [
   '/',
   '/index.html',
   '/styles.css',
   '/manifest.json',
   '/icon-192.png',
-  '/icon-512.png'
+  '/icon-512.png',
+  '/assets/storm-hero.jpg',
+  '/assets/lordg7-logo.jpg'
 ];
 
 self.addEventListener('install', (event) => {
